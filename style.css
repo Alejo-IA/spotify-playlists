@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#playlists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.playlist {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 200px;
+}
